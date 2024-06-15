@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Zen Kurenaido";
+  src: url("../public/fonts/ZenKurenaido.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  width: 100%;
+  min-width: 640px;
+  height: 100%;
+  background-image: url("../public/images/bg.jpeg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  //   position: relative;
+  .event-name {
+    margin: 100px 200px 0px;
+    padding: 23px 30px 23px 20px;
+    font-size: 38px;
+    font-family: "Zen Kurenaido", sans-serif;
+    color: #fff;
+    background: url("../public/images/logo2.png") no-repeat;
+  }
+  .title {
+    margin: 53px 0 0;
+    font-size: 40px;
+  }
+  .first-date {
+    margin: 50px 0 0;
+    font-size: 36px;
+  }
+  .second-date {
+    margin: 19px 0 0;
+    font-size: 36px;
+  }
+  .btns {
+    margin: 270px 0 30px;
+    font-size: 32px;
+    text-align: center;
+    .btns2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px 0 0 ;
+    }
+    .w-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff;
+      box-shadow: 5px 5px 0px 0px #000;
+      &.btn1 {
+        width: 559px;
+        height: 71px;
+        margin: 10px;
+        transform: rotate(-2.18deg);
+      }
+      &.btn3 {
+        width: 185px;
+        height: 77px;
+      }
+    }
+    .b-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #2a2b23;
+      color: #fff;
+      box-shadow: 5px 5px 0px 0px #fff;
+      &.btn2 {
+        width: 213.93px;
+        height: 88.82px;
+        transform: rotate(6.24deg);
+      }
+      &.btn4 {
+        width: 182.08px;
+        height: 78.82px;
+        transform: rotate(-8.21deg);
+      }
+    }
+  }
+  .warning {
+    position: relative;
+    bottom: 0;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
